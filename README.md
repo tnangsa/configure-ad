@@ -8,7 +8,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
@@ -43,7 +43,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 My first step is to create a Resource Group and VMs (DC-1 and Client-1). After creating the Domain Controller VM, I take the following steps:
 
-  - Set DC-1 NIC Private IP address to Static
+  - Set DC-1 NIC Private IP address to Static from Dynamic
   - After, I created the Client-1 VM on a Windows 10 using the same Resource Group created for the Domain Controller also known as DC-1.
   - Confirm the connectivity between Client-1 and DC-1:
 
